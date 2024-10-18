@@ -1,7 +1,7 @@
 page2
 [retour à l'accueil](index.md)
 [allez a la page1](page1.md)
-
+# Préparation du Bœuf
 ![image](https://github.com/user-attachments/assets/15d65dae-dc13-4bf5-b6f7-9fcaadb9e8db)
 
 1. Epluchez les carottes et détaillez-les en rondelles.
