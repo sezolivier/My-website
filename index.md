@@ -9,7 +9,7 @@
 | Carottes        |  | N/A      |
 | Bouefs    | Louche    | N/A   |
 
-###Suivez les étapes suivantes:
+### Suivez les étapes suivantes:
 1. Étape 1
 Faire revenir gousses hachées d'ail et les oignons émincés dans un peu d'huile d'olive.
 2. Étape 2
