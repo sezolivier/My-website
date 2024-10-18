@@ -16,7 +16,7 @@
 
 Étape 3: Au bout de quelques minutes, ajouter le vin rouge. Laisser cuire jusqu'à évaporation.
 
-Étape 4: Ajouter la purée de tomates, l'eau et les herbes. Saler, poivrer, puis laisser mijoter à feu doux 45 minutes.
+Étape 4: Ajouter la purée de tomates, l'eau et les herbes. Saler, poivrer, puis laisser mijoter à feu doux 45 minutes
 
 Étape 5: Préparer la béchamel : faire fondre 100 g de beurre.
 [Aller à la page 1](page1.md)
