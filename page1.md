@@ -2,7 +2,7 @@ ceci est la page 1
 [retour à l'accueil](index.md)
 [aller à la page 2](page2.md)
 
-https://www.charleville-sedan-tourisme.fr/wp-content/uploads/2019/07/comment-faire-de-vraies-frites-belges-1-640x430.jpg
+![image](https://github.com/user-attachments/assets/3ff148d0-c1c6-4cae-8767-3ffff468ec84)
 
 Préparation des vraies frites belges
 
