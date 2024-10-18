@@ -16,4 +16,4 @@ Etape 4: Coupez les pommes de terre en batons d'un centimètre de largeur en gar
 
 Etape 5: Rincez à nouveau les frites sous un filet d’eau pour enlever l'amidon
 
-Etape 6: Séchez les frites soigneusement dans un torchon propre (il faut les couvrir pour ne pas qu'elles s'oxydent).
+Etape 6: Séchez les frites soigneusement dans un torchon propre (il faut les couvrir pour qu'elles ne s'oxydent pas).
