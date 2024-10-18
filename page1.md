@@ -4,7 +4,7 @@ ceci est la page 1
 
 ![image](https://github.com/user-attachments/assets/3ff148d0-c1c6-4cae-8767-3ffff468ec84)
 
-Préparation des vraies frites belges
+# Préparation des vraies frites belges
 
 Etape 1: Épluchez les pommes de terre
 
