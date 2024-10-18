@@ -1,6 +1,7 @@
 ceci est la page 1
 [retour à l'accueil](index.md)
 [aller à la page 2](page2.md)
+https://www.charleville-sedan-tourisme.fr/preparez-votre-sejour/gastronomie/recettes/comment-faire-des-vraies-frites-belges/
 
 Préparation des vraies frites belges
 
