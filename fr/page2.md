@@ -1,3 +1,4 @@
+**Français** (/fr/page2.md) | [English](/en/page2.md)
 page2
 [retour à l'accueil](index.md)
 [allez a la page1](page1.md)
