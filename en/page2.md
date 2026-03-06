@@ -1,6 +1,10 @@
+<p align="right">
+  <a href="../fr/page2.html" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
+  <a href="../en/page2.html" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
+</p>
 [Français](../fr/page2.html) | **English**
 
-Page 2 · [Back to home](index.md) · [Go to page 1](page1.md)
+Page 2 · [Back to home](./) · [Go to page 1](page1.html)
 
 # Beef preparation
 
