@@ -2,9 +2,6 @@
   <a href="../fr/" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
   <a href="../en/" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
 </p>
-<p align="right">
-  <a href="../fr/">🇫🇷 Français</a> | <a href="../en/">🇬🇧 English</a>
-</p>
 **Français** | [English](../en/)
 # Bienvenue sur le site des recettes faciles
 
