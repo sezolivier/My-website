@@ -1,15 +1,133 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Website — Language</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sélection de langue | Language selection</title>
+  <meta name="description" content="Choisissez votre langue / Choose your language">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 80px auto;
+      padding: 32px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 24px;
+      font-size: 1.05rem;
+      color: #4b5563;
+    }
+
+    .language-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .lang-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 22px;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      background: #ffffff;
+      text-decoration: none;
+      color: #111827;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn:hover {
+      background: #f3f4f6;
+      border-color: #9ca3af;
+      transform: translateY(-1px);
+    }
+
+    .flag {
+      font-size: 1.3rem;
+    }
+
+    .small {
+      margin-top: 24px;
+      font-size: 0.92rem;
+      color: #6b7280;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const savedLanguage = localStorage.getItem("preferredLanguage");
+
+      if (savedLanguage === "fr") {
+        window.location.href = "./fr/";
+        return;
+      }
+
+      if (savedLanguage === "en") {
+        window.location.href = "./en/";
+        return;
+      }
+
+      const browserLanguage = navigator.language || navigator.userLanguage;
+
+      if (browserLanguage && browserLanguage.toLowerCase().startsWith("fr")) {
+        window.location.href = "./fr/";
+      } else {
+        window.location.href = "./en/";
+      }
+    });
+
+    function setLanguage(lang) {
+      localStorage.setItem("preferredLanguage", lang);
+    }
+  </script>
 </head>
 <body>
-  <h1>Choose your language / Choisissez votre langue</h1>
-  <p>
-    <a href="./fr/">Français</a> |
-    <a href="./en/">English</a>
-  </p>
+  <div class="container">
+    <h1>Choisissez votre langue / Choose your language</h1>
+    <p>
+      Sélectionnez la version française ou anglaise du site.<br>
+      Select the French or English version of the website.
+    </p>
+
+    <div class="language-buttons">
+      <a class="lang-btn" href="./fr/" onclick="setLanguage('fr')">
+        <span class="flag">🇫🇷</span>
+        <span>Français</span>
+      </a>
+
+      <a class="lang-btn" href="./en/" onclick="setLanguage('en')">
+        <span class="flag">🇬🇧</span>
+        <span>English</span>
+      </a>
+    </div>
+
+    <div class="small">
+      Votre choix peut être mémorisé pour les prochaines visites.<br>
+      Your choice can be remembered for future visits.
+    </div>
+  </div>
 </body>
 </html>
