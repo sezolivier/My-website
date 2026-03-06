@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sélection de langue | Language selection</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choix de langue | Language Selection</title>
   <meta name="description" content="Choisissez votre langue / Choose your language">
 
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f7f9fc;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f9fc;
       color: #1f2937;
     }
 
@@ -19,20 +19,22 @@
       max-width: 700px;
       margin: 80px auto;
       padding: 32px;
-      background: white;
+      background-color: #ffffff;
       border-radius: 14px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
       text-align: center;
     }
 
     h1 {
+      margin-top: 0;
       margin-bottom: 12px;
       font-size: 2rem;
     }
 
     p {
       margin-bottom: 24px;
-      font-size: 1.05rem;
+      font-size: 1rem;
+      line-height: 1.6;
       color: #4b5563;
     }
 
@@ -41,7 +43,7 @@
       justify-content: center;
       gap: 16px;
       flex-wrap: wrap;
-      margin-top: 20px;
+      margin-top: 24px;
     }
 
     .lang-btn {
@@ -51,7 +53,7 @@
       padding: 14px 22px;
       border: 1px solid #d1d5db;
       border-radius: 10px;
-      background: #ffffff;
+      background-color: #ffffff;
       text-decoration: none;
       color: #111827;
       font-size: 1rem;
@@ -60,7 +62,7 @@
     }
 
     .lang-btn:hover {
-      background: #f3f4f6;
+      background-color: #f3f4f6;
       border-color: #9ca3af;
       transform: translateY(-1px);
     }
@@ -69,7 +71,7 @@
       font-size: 1.3rem;
     }
 
-    .small {
+    .small-text {
       margin-top: 24px;
       font-size: 0.92rem;
       color: #6b7280;
@@ -77,36 +79,34 @@
   </style>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const savedLanguage = localStorage.getItem("preferredLanguage");
-
-      if (savedLanguage === "fr") {
-        window.location.href = "./fr/";
-        return;
-      }
-
-      if (savedLanguage === "en") {
-        window.location.href = "./en/";
-        return;
-      }
-
-      const browserLanguage = navigator.language || navigator.userLanguage;
-
-      if (browserLanguage && browserLanguage.toLowerCase().startsWith("fr")) {
-        window.location.href = "./fr/";
-      } else {
-        window.location.href = "./en/";
-      }
-    });
-
     function setLanguage(lang) {
-      localStorage.setItem("preferredLanguage", lang);
+      localStorage.setItem('preferredLanguage', lang);
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const savedLanguage = localStorage.getItem('preferredLanguage');
+      const browserLanguage = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+      let target = './en/';
+
+      if (savedLanguage === 'fr') {
+        target = './fr/';
+      } else if (savedLanguage === 'en') {
+        target = './en/';
+      } else if (browserLanguage.startsWith('fr')) {
+        target = './fr/';
+      }
+
+      setTimeout(function () {
+        window.location.href = target;
+      }, 2000);
+    });
   </script>
 </head>
 <body>
   <div class="container">
     <h1>Choisissez votre langue / Choose your language</h1>
+
     <p>
       Sélectionnez la version française ou anglaise du site.<br>
       Select the French or English version of the website.
@@ -124,7 +124,7 @@
       </a>
     </div>
 
-    <div class="small">
+    <div class="small-text">
       Votre choix peut être mémorisé pour les prochaines visites.<br>
       Your choice can be remembered for future visits.
     </div>
