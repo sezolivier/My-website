@@ -1,6 +1,6 @@
 [Français](../fr/page1.html) | **English**
 
-This is page 1 · [Back to home](index.md) · [Go to page 2](page2.md)
+This is page 1 · [Back to home](./) · [Go to page 2](page2.html)
 
 # French fries preparation
 
