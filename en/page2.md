@@ -1,4 +1,4 @@
-[Français](/fr/page2.md) | **English** (/en/page2.md)
+[Français](../fr/page2.html) | **English**
 
 Page 2 · [Back to home](index.md) · [Go to page 1](page1.md)
 
