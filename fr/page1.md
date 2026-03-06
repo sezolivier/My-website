@@ -2,21 +2,16 @@
   <a href="../fr/page1.html" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
   <a href="../en/page1.html" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
 </p>
-**Français** | [English](../en/page1.html)
-ceci est la page 1
-[Retour à l’accueil](./)
-[Aller à la page 2](page2.html)
+
 # Préparation des frites
+
+[Retour à l’accueil](./) · [Aller à la page 2](page2.html)
+
 ![image](https://github.com/user-attachments/assets/3ff148d0-c1c6-4cae-8767-3ffff468ec84)
 
-Etape 1: Épluchez les pommes de terre
-
-Etape 2: Faites les tremper dans de l’eau froide pendant quelques minutes
-
-Etape 3: Rincez-les soigneusement
-
-Etape 4: Coupez les pommes de terre en batons d'un centimètre de largeur en gardant une belle longueur (d'où l'importance de choisir des grosses pommes de terre !)
-
-Etape 5: Rincez à nouveau les frites sous un filet d’eau pour enlever l'amidon
-
-Etape 6: Séchez les frites soigneusement dans un torchon propre (il faut les couvrir pour qu'elles ne s'oxydent pas).
+**Étape 1 :** Épluchez les pommes de terre.  
+**Étape 2 :** Faites-les tremper dans de l’eau froide pendant quelques minutes.  
+**Étape 3 :** Rincez-les soigneusement.  
+**Étape 4 :** Coupez les pommes de terre en bâtons d’environ 1 cm de largeur en gardant une belle longueur.  
+**Étape 5 :** Rincez à nouveau les frites sous un filet d’eau pour enlever l’amidon.  
+**Étape 6 :** Séchez-les soigneusement dans un torchon propre.
