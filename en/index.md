@@ -23,4 +23,4 @@
 **Step 7:** Add very hot milk, stir well, then microwave again for 1 minute to thicken the sauce.  
 **Step 8:** Flavor the sauce with a few pinches of nutmeg, a little salt, and pepper.
 
-[Go to page 1](page1.md) · [Go to page 2](page2.md)
+[Go to page 1](page1.html) · [Go to page 2](page2.html)
