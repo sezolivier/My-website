@@ -3,30 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Website — Language selection</title>
-  <meta name="description" content="Choose your language: French or English." />
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:720px;margin:48px auto;padding:0 16px;line-height:1.5}
-    .box{border:1px solid #ddd;border-radius:12px;padding:20px}
-    a.btn{display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:10px;text-decoration:none;margin-right:10px}
-    small{color:#555}
-  </style>
-  <script>
-    (function () {
-      const lang = (navigator.language || "").toLowerCase();
-      if (lang.startsWith("fr")) window.location.replace("./fr/");
-      else if (lang) window.location.replace("./en/");
-    })();
-  </script>
+  <title>My Website — Language</title>
 </head>
 <body>
   <h1>Choose your language / Choisissez votre langue</h1>
-  <div class="box">
-    <p>
-      <a class="btn" href="./fr/">Français</a>
-      <a class="btn" href="./en/">English</a>
-    </p>
-    <p><small>If you were redirected automatically, you can still choose manually here.</small></p>
-  </div>
+  <p>
+    <a href="./fr/">Français</a> |
+    <a href="./en/">English</a>
+  </p>
 </body>
 </html>
