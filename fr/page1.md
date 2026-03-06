@@ -1,7 +1,7 @@
 **Français** | [English](../en/page1.html)
 ceci est la page 1
-[retour à l'accueil](index.md)
-[aller à la page 2](page2.md)
+[Retour à l’accueil](./)
+[Aller à la page 2](page2.html)
 # Préparation des frites
 ![image](https://github.com/user-attachments/assets/3ff148d0-c1c6-4cae-8767-3ffff468ec84)
 
