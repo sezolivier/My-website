@@ -1,7 +1,11 @@
+<p align="right">
+  <a href="../fr/page2.html" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
+  <a href="../en/page2.html" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
+</p>
 **Français** | [English](../en/page2.html)
 page2
-[retour à l'accueil](index.md)
-[allez a la page1](page1.md)
+[Retour à l’accueil](./)
+[Aller à la page 1](page1.html)
 # Préparation du Bœuf
 ![image](https://github.com/user-attachments/assets/15d65dae-dc13-4bf5-b6f7-9fcaadb9e8db)
 
