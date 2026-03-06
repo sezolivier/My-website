@@ -1,4 +1,4 @@
-[Français](/fr/) | **English** (/en/)
+[Français](../fr/) | **English**
 
 # Welcome to the easy recipes website
 
