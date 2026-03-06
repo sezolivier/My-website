@@ -1,4 +1,4 @@
-**Français** (/fr/) | [English](/en/)
+**Français** | [English](../en/)
 # Bienvenue sur le site des recettes faciles
 
 ## Recette du jour: Lasagnes
