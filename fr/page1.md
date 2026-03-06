@@ -1,3 +1,7 @@
+<p align="right">
+  <a href="../fr/page1.html" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
+  <a href="../en/page1.html" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
+</p>
 **Français** | [English](../en/page1.html)
 ceci est la page 1
 [Retour à l’accueil](./)
