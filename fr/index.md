@@ -26,5 +26,5 @@
 Étape 7: Incorporez ensuite le lait très chaud, remuez bien le tout et repassez à nouveau au micro-onde 1 minute pour épaissir la sauce.
 
 Étape 8: Parfumez votre sauce avec quelques pincées de noix de muscade, un peu de sel et de poivre.
-[Aller à la page 1](page1.md)
-[Aller à la page 2](page2.md)
+[Aller à la page 1](page1.html)
+[Aller à la page 2](page2.html)
