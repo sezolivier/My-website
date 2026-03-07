@@ -79,29 +79,27 @@
   </style>
 
   <script>
-    function setLanguage(lang) {
-      localStorage.setItem('preferredLanguage', lang);
+  function setLanguage(lang) {
+    localStorage.setItem('preferredLanguage', lang);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const savedLanguage = localStorage.getItem('preferredLanguage');
+    const browserLanguage = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+    let target = './en/';
+
+    if (savedLanguage === 'fr') {
+      target = './fr/';
+    } else if (savedLanguage === 'en') {
+      target = './en/';
+    } else if (browserLanguage.startsWith('fr')) {
+      target = './fr/';
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-      const savedLanguage = localStorage.getItem('preferredLanguage');
-      const browserLanguage = (navigator.language || navigator.userLanguage || '').toLowerCase();
-
-      let target = './en/';
-
-      if (savedLanguage === 'fr') {
-        target = './fr/';
-      } else if (savedLanguage === 'en') {
-        target = './en/';
-      } else if (browserLanguage.startsWith('fr')) {
-        target = './fr/';
-      }
-
-      setTimeout(function () {
-        window.location.href = target;
-      }, 2000);
-    });
-  </script>
+    window.location.replace(target);
+  });
+</script>
 </head>
 <body>
   <div class="container">
