@@ -1,8 +1,4 @@
 <p align="right">
-  🇫🇷 <strong>Français</strong> |
-  🇬🇧 <a href="../en/">English</a>
-</p>
-<p align="right">
   <a href="../fr/" onclick="localStorage.setItem('preferredLanguage','fr')">🇫🇷 Français</a> |
   <a href="../en/" onclick="localStorage.setItem('preferredLanguage','en')">🇬🇧 English</a>
 </p>
